@@ -1,4 +1,4 @@
-# **Create CTEs to answer complex business questions targeting specific groups:**
+Create CTEs to answer complex business questions targeting specific groups:
 
 WITH top_5_customer_cte AS
 (SELECT A.customer_id, A.first_name, A.last_name, C.city, D.country,
